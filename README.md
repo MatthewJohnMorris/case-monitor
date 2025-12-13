@@ -84,11 +84,6 @@ Run it with the desired frequency via the Windows Task Scheduler, once a day or 
 
 ## Customization
 
-* **Email recipient**:
-
-  ```python
-  EMAIL_TO = "recipient_email@example.com"
-  ```
 * **SMTP server/port** (Gmail defaults):
 
   ```python
@@ -109,6 +104,7 @@ Run it with the desired frequency via the Windows Task Scheduler, once a day or 
 ## License
 
 Data reused under the [Open Justice Licence](https://caselaw.nationalarchives.gov.uk/open-justice-licence).
+
 
 
 
