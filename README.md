@@ -4,7 +4,7 @@ My OCD was nagging me over tracking developments in a court case, so I wrote som
 
 This is a Python script to monitor new case law documents from the [UK National Archives Find Case Law](https://caselaw.nationalarchives.gov.uk/) service. The script fetches the latest judgments matching a specified search query and sends email notifications with updates.
 
-Run it with the desired frequency via the Windows Task Scheduler - e.g. every 12 hours.
+Run it with the desired frequency via the Windows Task Scheduler, once a day or whatever.
 
 ---
 
@@ -109,6 +109,7 @@ Run it with the desired frequency via the Windows Task Scheduler - e.g. every 12
 ## License
 
 Data reused under the [Open Justice Licence](https://caselaw.nationalarchives.gov.uk/open-justice-licence).
+
 
 
 
