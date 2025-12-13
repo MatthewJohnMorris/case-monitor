@@ -1,15 +1,18 @@
-import requests
-import xml.etree.ElementTree as ET
-import smtplib
-from email.message import EmailMessage
-import json
-import keyring
-import os
-from datetime import datetime
-import winsound
-from plyer import notification
+# Standard library imports
 import argparse
+import json
+import os
+import smtplib
 import sys
+import xml.etree.ElementTree as ET
+from datetime import datetime
+from email.message import EmailMessage
+import winsound
+
+# Third-party imports
+import keyring
+import requests
+from plyer import notification
 
 # ----------------------
 # Configuration
