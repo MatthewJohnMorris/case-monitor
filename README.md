@@ -33,12 +33,12 @@ Run it with the desired frequency via the Windows Task Scheduler - e.g. every 12
 
 ## Setup
 
-1. **Store your Gmail email address and App Password in Windows Credential Manager**:
+1. **Store your target email address, Gmail email address and App Password in Windows Credential Manager**:
 
-   ```python
-   import keyring
-   keyring.set_password("case-monitor", "gmail-address", "<YOUR_GMAIL_ADDRESS>")
-   keyring.set_password("case-monitor", "gmail-password", "<YOUR_GMAIL_APP_PASSWORD>")
+   ```
+   venv\Scripts\python.exe -c "import keyring; keyring.set_password('case-monitor','email-address','<YOUR_EMAIL_ADDRESS>')"
+   venv\Scripts\python.exe -c "import keyring; keyring.set_password('case-monitor','gmail-address','<YOUR_GMAIL_ADDRESS>')"
+   venv\Scripts\python.exe -c "import keyring; keyring.set_password('case-monitor','gmail-password','<YOUR_GMAIL_PASSWORD>')"
    ```
 
    > Use a Gmail App Password, not your regular password, since basic authentication is disabled.
@@ -106,4 +106,5 @@ Run it with the desired frequency via the Windows Task Scheduler - e.g. every 12
 ## License
 
 Data reused under the [Open Justice Licence](https://caselaw.nationalarchives.gov.uk/open-justice-licence).
+
 
