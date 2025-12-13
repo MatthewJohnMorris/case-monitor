@@ -36,7 +36,9 @@ Run it with the desired frequency via the Windows Task Scheduler - e.g. every 12
 1. **Store your target email address, Gmail email address and App Password in Windows Credential Manager**:
 
    ```
+   # The email you want to receive updates on
    venv\Scripts\python.exe -c "import keyring; keyring.set_password('case-monitor','email-address','<YOUR_EMAIL_ADDRESS>')"
+   # The gmail relay - how you are sending email
    venv\Scripts\python.exe -c "import keyring; keyring.set_password('case-monitor','gmail-address','<YOUR_GMAIL_ADDRESS>')"
    venv\Scripts\python.exe -c "import keyring; keyring.set_password('case-monitor','gmail-password','<YOUR_GMAIL_PASSWORD>')"
    ```
@@ -106,5 +108,6 @@ Run it with the desired frequency via the Windows Task Scheduler - e.g. every 12
 ## License
 
 Data reused under the [Open Justice Licence](https://caselaw.nationalarchives.gov.uk/open-justice-licence).
+
 
 
