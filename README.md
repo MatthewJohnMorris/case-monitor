@@ -28,6 +28,7 @@ Run it with the desired frequency via the Windows Task Scheduler - e.g. every 12
   pip install requests plyer
   ```
 * Gmail account credentials stored securely using [Windows Credential Manager](https://docs.python.org/3/library/keyring.html#using-keyring) via `keyring`.
+* Also storing email addressed in the same place, although that's just so they aren't public in this script in Github.
 
 ---
 
@@ -108,6 +109,7 @@ Run it with the desired frequency via the Windows Task Scheduler - e.g. every 12
 ## License
 
 Data reused under the [Open Justice Licence](https://caselaw.nationalarchives.gov.uk/open-justice-licence).
+
 
 
 
