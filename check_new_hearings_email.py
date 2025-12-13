@@ -21,11 +21,13 @@ from plyer import notification
 DATA_FILE = "known_cases.json"
 LOG_FILE = "new_cases_log.txt"
 
-EMAIL_TO = "matt_morris_zz@yahoo.co.uk"
-
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
+EMAIL_TO = keyring.get_password("case-monitor", "email-address")
+if not EMAIL_TO:
+    raise RuntimeError("Target email address not found in Windows Credential Manager")
+    
 EMAIL_FROM = keyring.get_password("case-monitor", "gmail-address")
 if not EMAIL_FROM:
     raise RuntimeError("Gmail email address not found in Windows Credential Manager")
