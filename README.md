@@ -4,7 +4,7 @@ My OCD was nagging me over tracking developments in a court case, so I "wrote" (
 
 This is a Python script to monitor new case law documents from the [UK National Archives Find Case Law](https://caselaw.nationalarchives.gov.uk/) service - it's based on pointing ChatGPT at the interface spec that can be downloaded from https://nationalarchives.github.io/ds-find-caselaw-docs/public. The script fetches the latest judgments matching a specified search query and sends email notifications with updates.
 
-Run it with the desired frequency via the Windows Task Scheduler, once a day or whatever.
+Set it to run with the desired frequency via the Windows Task Scheduler, once a day or whatever. Under Properties/Settings, check "Run task as soon as possible after a scheduled start is missed" - then if your PC was sleeping at the task time, it'll fire when you next wake it up.
 
 When getting this working, sending emails may prove tricky: it's an area where abusers are always coming up with new tricks, and the email providers are then always having to impose new restrictions to counter them. This is why we can't have nice things. Currently, relaying via a GMail account can be made to work (using a dedicated GMail App Password rather than your regular GMail password). But it's possible that this may stop working at some point. If you run into trouble here, I recommend consulting ChatGPT/etc for the current state of the art.
 
@@ -106,6 +106,7 @@ When getting this working, sending emails may prove tricky: it's an area where a
 ## License
 
 Data reused under the [Open Justice Licence](https://caselaw.nationalarchives.gov.uk/open-justice-licence).
+
 
 
 
