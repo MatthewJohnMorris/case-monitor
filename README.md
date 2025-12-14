@@ -13,7 +13,7 @@ When getting this working, sending emails may prove tricky: it's an area where a
 ## Features
 
 * Fetches case law from the National Archives Atom feed.
-* Sends email notifications via Gmail when new cases are found or if no new cases exist.
+* Sends email notifications via Gmail, whether new cases are found or no new cases exist.
 * Plays a system alert sound when new cases are detected.
 * Shows a temporary desktop notification every time the script runs.
 * Keeps track of known cases to detect new entries.
@@ -106,6 +106,7 @@ When getting this working, sending emails may prove tricky: it's an area where a
 ## License
 
 Data reused under the [Open Justice Licence](https://caselaw.nationalarchives.gov.uk/open-justice-licence).
+
 
 
 
