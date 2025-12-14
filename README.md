@@ -6,7 +6,7 @@ This is a Python script to monitor new case law documents from the [UK National 
 
 Run it with the desired frequency via the Windows Task Scheduler, once a day or whatever.
 
-When getting this working, sending emails may prove tricky: it's an area where abusers are always coming up with new tricks, and provers always having to impose new restrictions to counter them. This is why we cannot have nice things. If you run into trouble here, I recommend consulting ChatGPT.
+When getting this working, sending emails may prove tricky: it's an area where abusers are always coming up with new tricks, and the email providers always having to impose new restrictions to counter them. This is why we cannot have nice things. If you run into trouble here, I recommend consulting ChatGPT.
 
 ---
 
@@ -106,6 +106,7 @@ When getting this working, sending emails may prove tricky: it's an area where a
 ## License
 
 Data reused under the [Open Justice Licence](https://caselaw.nationalarchives.gov.uk/open-justice-licence).
+
 
 
 
